@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coding-with.me/"/>
-  <updated>2016-07-28T00:21:08.000Z</updated>
+  <updated>2016-07-28T05:57:50.000Z</updated>
   <id>http://coding-with.me/</id>
   
   <author>
@@ -14,6 +14,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>테스트 se2</title>
+    <link href="http://coding-with.me/2016/07/28/new-post2/"/>
+    <id>http://coding-with.me/2016/07/28/new-post2/</id>
+    <published>2016-07-28T05:57:50.000Z</published>
+    <updated>2016-07-28T05:57:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="난-이것을-왜-하는-것인가"><a href="#난-이것을-왜-하는-것인가" class="headerlink" title="난 이것을 왜 하는 것인가"></a>난 이것을 왜 하는 것인가</h1><h2 id="잘되나-안되나-궁금해서"><a href="#잘되나-안되나-궁금해서" class="headerlink" title="잘되나 안되나 궁금해서"></a>잘되나 안되나 궁금해서</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;난-이것을-왜-하는-것인가&quot;&gt;&lt;a href=&quot;#난-이것을-왜-하는-것인가&quot; class=&quot;headerlink&quot; title=&quot;난 이것을 왜 하는 것인가&quot;&gt;&lt;/a&gt;난 이것을 왜 하는 것인가&lt;/h1&gt;&lt;h2 id=&quot;잘되나-안되나-궁금해서&quot;&gt;&lt;a 
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>테스트</title>
