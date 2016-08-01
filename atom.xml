@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coding-with.me/"/>
-  <updated>2016-08-01T15:20:14.000Z</updated>
+  <updated>2016-08-01T15:32:36.000Z</updated>
   <id>http://coding-with.me/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>React Study Plan</title>
     <link href="http://coding-with.me/2016/08/02/react-study-plan/"/>
     <id>http://coding-with.me/2016/08/02/react-study-plan/</id>
-    <published>2016-08-01T15:20:14.000Z</published>
-    <updated>2016-08-01T15:20:14.000Z</updated>
+    <published>2016-08-01T15:32:36.000Z</published>
+    <updated>2016-08-01T15:32:36.000Z</updated>
     
     <content type="html"><![CDATA[<p>하반기에 나 자신의 개발역량 강화를 위해 React를 공부하기로 결심하였다.<br>회사에서 다른 개발자들은 ng를 주로 사용하지만, 최근에 ng2가 나오면서 뭔가 1,2가<br>서로 다른 부분도 있기도 하고, typescript를 배워야 한다고 해서 React를 선택하였다.</p>
 <p>React Native를 이용하면 앱도 개발할 수 있다고 하니 왠지 더 끌리기도 했다.</p>
@@ -39,7 +39,7 @@
 <li><p><a href="https://facebook.github.io/react-native/docs/getting-started.html#content" target="_blank" rel="external">React Native</a> 보기 (영어)<br>더 나아가 React Native를 익혀서 앱을 만들어보려고 한다.</p>
 </li>
 </ol>
-<p>공부하면서 알게 된 내용, 기억할 내용, 잘 이해가 안되는 내용 등을 이 블로그에 업데이트 할 계획이다.<br>이렇게 글로 남기는 것은 나 스스로 꾸준히 공부하기 위함이기도 하고 다른 사람들에게 보이므로써 나태함을<br>방지하기 위해서다. </p>
+<p>공부하면서 알게 된 내용, 기억할 내용, 잘 이해가 안 되는 내용 등을 이 블로그에 업데이트할 계획이다.<br>이렇게 글로 남기는 것은 나 스스로 꾸준히 공부하기 위함이기도 하고 다른 사람들에게 보임으로써 나태함을<br>방지하기 위해서다. </p>
 <p>React로 뭔가 개발했다는 글을 올 연말에는 남기고 싶다.</p>
 ]]></content>
     
