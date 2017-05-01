@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coding-with.me/2017/05/01/vuejs-study-plan/</loc>
+    
+    <lastmod>2017-05-01T14:34:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coding-with.me/2016/08/02/react-study-plan/</loc>
     
-    <lastmod>2017-02-02T04:24:16.000Z</lastmod>
+    <lastmod>2017-05-01T14:14:25.000Z</lastmod>
     
   </url>
   
