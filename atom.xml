@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coding-with.me/"/>
-  <updated>2017-06-29T23:58:39.000Z</updated>
+  <updated>2017-06-30T00:14:47.000Z</updated>
   <id>http://coding-with.me/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>2017 널리, 세미나 널리 사람을 이롭게 하다 요약</title>
     <link href="http://coding-with.me/2017/06/30/nuli-seminar/"/>
     <id>http://coding-with.me/2017/06/30/nuli-seminar/</id>
-    <published>2017-06-29T23:58:39.000Z</published>
-    <updated>2017-06-29T23:58:39.000Z</updated>
+    <published>2017-06-30T00:14:47.000Z</published>
+    <updated>2017-06-30T00:14:47.000Z</updated>
     
     <content type="html"><![CDATA[<p>지난 6월 28일 그린팩토리 2층 커넥트 홀에서 2017 널리 사람을 이롭게 하다에 다녀왔다.<br>청각장애인을 위해 텍스트로 그때그때 연사들의 발표를 제공하는 점이 인상 깊었다.</p>
 <p>널리 사람을 이롭게 하도록 바람을 일으켜 달라는 의미로 부채도 선물 받았다.<br>뭔가 신선한 선물이였다.</p>
@@ -119,7 +119,7 @@
 <li>비장애인도 많이 다운 받음</li>
 </ul>
 </li>
-<li>상성 벡스<ul>
+<li>상성 덱스<ul>
 <li>Dock your smartphone</li>
 <li>상지장애인의 도움을 받음</li>
 <li>마우스와 키보드를 사용할 수 있게 됨.</li>
@@ -227,9 +227,9 @@
       <category term="vuejs" scheme="http://coding-with.me/categories/front-end/framework/vuejs/"/>
     
     
-      <category term="study" scheme="http://coding-with.me/tags/study/"/>
-    
       <category term="vuejs" scheme="http://coding-with.me/tags/vuejs/"/>
+    
+      <category term="study" scheme="http://coding-with.me/tags/study/"/>
     
   </entry>
   
@@ -272,11 +272,11 @@
       <category term="react" scheme="http://coding-with.me/categories/front-end/react/"/>
     
     
+      <category term="study" scheme="http://coding-with.me/tags/study/"/>
+    
       <category term="javascript" scheme="http://coding-with.me/tags/javascript/"/>
     
       <category term="react" scheme="http://coding-with.me/tags/react/"/>
-    
-      <category term="study" scheme="http://coding-with.me/tags/study/"/>
     
   </entry>
   
