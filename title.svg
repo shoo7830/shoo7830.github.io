@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="20" viewBox="0 0 98 20">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="98" height="20" fill="#555" rx="3"/>
+    <path fill="#4C1" d="M53.5,0 L95,0 L95,-4.4408921e-16 C96.6568542,3.66629817e-15 98,1.34314575 98,3 L98,17 L98,17 C98,18.6568542 96.6568542,20 95,20 L53.5,20 L46,20 L46,0 L53.5,0 Z"/>
+    <text fill="#010101" fill-opacity=".3" font-family="Geneva" font-size="12">
+      <tspan x="45.5" y="14"> with.me</tspan>
+    </text>
+    <text fill="#FFF" font-family="Geneva" font-size="12">
+      <tspan x="45.5" y="13"> with.me</tspan>
+    </text>
+    <text fill="#010101" fill-opacity=".3" font-family="Geneva" font-size="12">
+      <tspan x="3.5" y="14">coding</tspan>
+    </text>
+    <text fill="#FFF" stroke="#979797" font-family="Geneva" font-size="12">
+      <tspan x="3.5" y="13">coding</tspan>
+    </text>
+  </g>
+</svg>

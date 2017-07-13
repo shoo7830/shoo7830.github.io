@@ -424,10 +424,10 @@ header {
     float: right;
     left: 80px; }
   header .logo-link img {
-    height: 60px; }
+    height: 20px; }
   header .nav-list-item {
     display: inline-block;
-    padding: 19px  10px; }
+    padding: 19px 10px; }
     header .nav-list-item a {
       font-size: 16px;
       line-height: 1.4; }
@@ -474,7 +474,6 @@ header {
   margin: 0.65em 0;
   color: #2c3e50;
   font-size: 1.5em; }
-
 .post-block .post-info {
   color: #7f8c8d;
   margin: 1.2em 0; }
@@ -499,34 +498,25 @@ header {
     top: -4px;
     font-size: 1.2em;
     font-weight: bold; }
-
 .post-content h4 a:before, .post-content h5 a:before, .post-content h6 a:before {
   content: ""; }
-
 .post-content h2, .post-content h3 {
   font-size: 22px; }
-
 .post-content h4, .post-content h5, .post-content h6 {
   font-size: 18px; }
-
 .post-content a {
   color: #42b983;
   word-break: break-all; }
-
 .post-content blockquote {
   margin: 2em 0;
   padding-left: 20px;
   border-left: 4px solid #42b983; }
-
 .post-content img {
   display: block;
   max-width: 100%;
   margin: 1em auto; }
-
-.post-content > table,
-.post-content > figure.highlight {
+.post-content > table, .post-content > figure.highlight {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.125); }
-
 .post-content .tip {
   position: relative;
   margin: 2em 0;
@@ -537,7 +527,6 @@ header {
   background-color: #f8f8f8; }
   .post-content .tip br {
     display: none; }
-
 .post-content .tip:before {
   position: absolute;
   top: 14px;
@@ -762,12 +751,13 @@ main.container {
   .wrap {
     width: 700px;
     margin: 0 auto; }
+
   header {
     padding: 20px 100px; } }
-
 @media screen and (max-width: 700px) {
   .wrap {
     width: 100%; }
+
   header {
     padding: 20px 0; }
     header a.logo-link,
@@ -777,19 +767,22 @@ main.container {
       text-align: center; }
     header li.nav-list-item {
       padding: 10px 10px; }
+
   main.container,
   .home.post-list,
   .archive {
     margin-top: 0; }
+
   .archive .post-item {
     padding-left: 20px; }
+
   .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
     max-width: 300px;
     left: 15px; }
+
   .ds-thread,
   #disqus_thread {
     margin: 2em 10px; } }
-
 footer {
   padding-bottom: 1px; }
   footer .copyright {
@@ -805,6 +798,8 @@ footer {
 
 @font-face {
   font-family: 'sourcesanspro';
-  src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("woff");
+  src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("wof");
   font-weight: normal;
   font-style: normal; }
+
+/*# sourceMappingURL=apollo.css.map */
