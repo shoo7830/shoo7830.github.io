@@ -1,5 +1,5 @@
 language: node_js
-  - 7.1.0
+  - 6.11.1
 branches:
   only:
   - master
