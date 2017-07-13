@@ -1,11 +1,13 @@
 language: node_js
+node_js:  
   - 6.11.1
-branches:
-  only:
-  - master
-# before_install:
-# - npm install -g hexo
-# - npm install
-# install:
-# - hexo generate
+before_install:
+  - npm install -g hexo
+install:
+  - npm install
+before_script:
+  - git config --global user.name 'shoo7830'
+  - git config --global user.email 'shoo7830@gmail.com'
+script:
+  - hexo generate
 
