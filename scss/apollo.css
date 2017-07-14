@@ -424,7 +424,7 @@ header {
     float: right;
     left: 80px; }
   header .logo-link img {
-    height: 20px; }
+    height: 60px; }
   header .nav-list-item {
     display: inline-block;
     padding: 19px 10px; }
@@ -798,7 +798,7 @@ footer {
 
 @font-face {
   font-family: 'sourcesanspro';
-  src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("wof");
+  src: url("../font/sourcesanspro.woff2") format("woff2"), url("../font/sourcesanspro.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
