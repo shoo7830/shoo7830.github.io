@@ -227,9 +227,9 @@
       <category term="vuejs" scheme="http://coding-with.me/categories/front-end/framework/vuejs/"/>
     
     
-      <category term="study" scheme="http://coding-with.me/tags/study/"/>
-    
       <category term="vuejs" scheme="http://coding-with.me/tags/vuejs/"/>
+    
+      <category term="study" scheme="http://coding-with.me/tags/study/"/>
     
   </entry>
   
@@ -272,11 +272,11 @@
       <category term="react" scheme="http://coding-with.me/categories/front-end/react/"/>
     
     
+      <category term="study" scheme="http://coding-with.me/tags/study/"/>
+    
       <category term="javascript" scheme="http://coding-with.me/tags/javascript/"/>
     
       <category term="react" scheme="http://coding-with.me/tags/react/"/>
-    
-      <category term="study" scheme="http://coding-with.me/tags/study/"/>
     
   </entry>
   
