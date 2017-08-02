@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coding-with.me/"/>
-  <updated>2017-06-30T00:14:47.000Z</updated>
+  <updated>2017-08-02T04:06:10.000Z</updated>
   <id>http://coding-with.me/</id>
   
   <author>
@@ -14,6 +14,46 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sass/Less에서 calc() 사용하기</title>
+    <link href="http://coding-with.me/2017/08/02/sass-less-calc/"/>
+    <id>http://coding-with.me/2017/08/02/sass-less-calc/</id>
+    <published>2017-08-02T04:06:10.000Z</published>
+    <updated>2017-08-02T04:06:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>css3 width속성 중 <code>calc()</code>이라는유용한 단위 값이 있다.<br>이것은 너비에 대해 계산 된 값을 허용하는 방법인데, 보통은 아래와 같이 작성한다.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">width</span>: <span class="selector-tag">calc</span>(100% <span class="selector-tag">-</span> 10<span class="selector-tag">px</span>);</div></pre></td></tr></table></figure>
+<p>그런데 Sass/Less로 위와 같이 작성하면 제대로 나오지 않는다.<br>둘 다 다른 방식으로 작성해야 한다.</p>
+<h2 id="Sass"><a href="#Sass" class="headerlink" title="Sass"></a>Sass</h2><figure class="highlight scss"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">mixin</span> calc(<span class="variable">$property</span>, <span class="variable">$expression</span>) &#123;</div><div class="line">  #&#123;<span class="variable">$property</span>&#125;: -moz-calc(#&#123;expression&#125;);</div><div class="line">  #&#123;<span class="variable">$property</span>&#125;: -webkit-calc(#&#123;expression&#125;);</div><div class="line">  #&#123;<span class="variable">$property</span>&#125;: calc(#&#123;expression&#125;);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">article</span> &#123;</div><div class="line">  @<span class="keyword">include</span> calc(width, <span class="string">'100% - 10px'</span>)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>만약 gulp에서 autoprefixer를 설정했다면 위의 두 줄은 생략해도 된다.</p>
+<h2 id="Less"><a href="#Less" class="headerlink" title="Less"></a>Less</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">width</span>: <span class="string">~"calc(100% - 10px)"</span>;</div></pre></td></tr></table></figure>
+<p>로 적어주거나</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="variable">@article-width:</span> <span class="number">10px</span>;</div><div class="line"></div><div class="line"><span class="selector-tag">aritcle</span> &#123;</div><div class="line">  <span class="attribute">width</span>: -webkit-calc(<span class="string">~"100% -"</span> <span class="variable">@article-width</span>);</div><div class="line">  <span class="attribute">width</span>: -moz-calc(<span class="string">~"100% -"</span> <span class="variable">@article-width</span>);</div><div class="line">  <span class="attribute">width</span>: calc(<span class="string">~"100% -"</span> <span class="variable">@article-width</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>변수를 선언해서 사용해도 된다.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;css3 width속성 중 &lt;code&gt;calc()&lt;/code&gt;이라는유용한 단위 값이 있다.&lt;br&gt;이것은 너비에 대해 계산 된 값을 허용하는 방법인데, 보통은 아래와 같이 작성한다.&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;t
+    
+    </summary>
+    
+      <category term="front-end" scheme="http://coding-with.me/categories/front-end/"/>
+    
+      <category term="css" scheme="http://coding-with.me/categories/front-end/css/"/>
+    
+    
+      <category term="sass" scheme="http://coding-with.me/tags/sass/"/>
+    
+      <category term="scss" scheme="http://coding-with.me/tags/scss/"/>
+    
+      <category term="less" scheme="http://coding-with.me/tags/less/"/>
+    
+      <category term="calc" scheme="http://coding-with.me/tags/calc/"/>
+    
+  </entry>
   
   <entry>
     <title>2017 널리, 세미나 널리 사람을 이롭게 하다 요약</title>
@@ -227,9 +267,9 @@
       <category term="vuejs" scheme="http://coding-with.me/categories/front-end/framework/vuejs/"/>
     
     
-      <category term="vuejs" scheme="http://coding-with.me/tags/vuejs/"/>
-    
       <category term="study" scheme="http://coding-with.me/tags/study/"/>
+    
+      <category term="vuejs" scheme="http://coding-with.me/tags/vuejs/"/>
     
   </entry>
   
@@ -272,11 +312,11 @@
       <category term="react" scheme="http://coding-with.me/categories/front-end/react/"/>
     
     
-      <category term="study" scheme="http://coding-with.me/tags/study/"/>
-    
       <category term="javascript" scheme="http://coding-with.me/tags/javascript/"/>
     
       <category term="react" scheme="http://coding-with.me/tags/react/"/>
+    
+      <category term="study" scheme="http://coding-with.me/tags/study/"/>
     
   </entry>
   
