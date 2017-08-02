@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coding-with.me/"/>
-  <updated>2017-06-30T00:14:47.000Z</updated>
+  <updated>2017-08-02T04:06:10.000Z</updated>
   <id>http://coding-with.me/</id>
   
   <author>
@@ -14,6 +14,106 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Sass/Less에서 calc() 사용하기</title>
+    <link href="http://coding-with.me/2017/08/02/sass-less-calc/"/>
+    <id>http://coding-with.me/2017/08/02/sass-less-calc/</id>
+    <published>2017-08-02T04:06:10.000Z</published>
+    <updated>2017-08-02T04:06:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>css3 width속성 중 <code>calc()</code>이라는유용한 단위 값이 있다.<br>이것은 너비에 대해 계산 된 값을 허용하는 방법인데, 보통은 아래와 같이 작성한다.</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">width</span>: <span class="selector-tag">calc</span>(100% <span class="selector-tag">-</span> 10<span class="selector-tag">px</span>);</div></pre></td></tr></table></figure>
+<p>그런데 Sass/Less로 위와 같이 작성하면 제대로 나오지 않는다.<br>둘 다 다른 방식으로 작성해야 한다.</p>
+<h2 id="Sass"><a href="#Sass" class="headerlink" title="Sass"></a>Sass</h2><figure class="highlight scss"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">mixin</span> calc(<span class="variable">$property</span>, <span class="variable">$expression</span>) &#123;</div><div class="line">  #&#123;<span class="variable">$property</span>&#125;: -moz-calc(#&#123;expression&#125;);</div><div class="line">  #&#123;<span class="variable">$property</span>&#125;: -webkit-calc(#&#123;expression&#125;);</div><div class="line">  #&#123;<span class="variable">$property</span>&#125;: calc(#&#123;expression&#125;);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">article</span> &#123;</div><div class="line">  @<span class="keyword">include</span> calc(width, <span class="string">'100% - 10px'</span>)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>만약 gulp에서 autoprefixer를 설정했다면 위의 두 줄은 생략해도 된다.</p>
+<h2 id="Less"><a href="#Less" class="headerlink" title="Less"></a>Less</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">width</span>: <span class="string">~"calc(100% - 10px)"</span>;</div></pre></td></tr></table></figure>
+<p>로 적어주거나</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="variable">@article-width:</span> <span class="number">10px</span>;</div><div class="line"></div><div class="line"><span class="selector-tag">aritcle</span> &#123;</div><div class="line">  <span class="attribute">width</span>: -webkit-calc(<span class="string">~"100% -"</span> <span class="variable">@article-width</span>);</div><div class="line">  <span class="attribute">width</span>: -moz-calc(<span class="string">~"100% -"</span> <span class="variable">@article-width</span>);</div><div class="line">  <span class="attribute">width</span>: calc(<span class="string">~"100% -"</span> <span class="variable">@article-width</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>변수를 선언해서 사용해도 된다.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;css3 width속성 중 &lt;code&gt;calc()&lt;/code&gt;이라는유용한 단위 값이 있다.&lt;br&gt;이것은 너비에 대해 계산 된 값을 허용하는 방법인데, 보통은 아래와 같이 작성한다.&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;t
+    
+    </summary>
+    
+      <category term="front-end" scheme="http://coding-with.me/categories/front-end/"/>
+    
+      <category term="css" scheme="http://coding-with.me/categories/front-end/css/"/>
+    
+    
+      <category term="sass" scheme="http://coding-with.me/tags/sass/"/>
+    
+      <category term="less" scheme="http://coding-with.me/tags/less/"/>
+    
+      <category term="calc" scheme="http://coding-with.me/tags/calc/"/>
+    
+      <category term="scss" scheme="http://coding-with.me/tags/scss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nuxt/Yarn을 활용하여 개편 소개 페이지 만들기</title>
+    <link href="http://coding-with.me/2017/07/17/nuxt-project/"/>
+    <id>http://coding-with.me/2017/07/17/nuxt-project/</id>
+    <published>2017-07-17T04:19:57.000Z</published>
+    <updated>2017-07-17T04:19:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>올해 초 부터 Vue.js에 관심이 생겨 개인적으로 학습하고 있었다.<br><a href="http://webholic.net/2017%EB%85%84-1%EC%82%AC%EB%B6%84%EA%B8%B0-%ED%9A%8C%EA%B3%A0/" target="_blank" rel="external">2017 1사분기를 회고</a>하는 글에 이런 내용을 적었었다.</p>
+<blockquote>
+<p>“회사 개발자 세미나에서도 해당 주제로 발표할 예정이며,  가능하다면 외부 밋업에서도 발표하고 싶다.”</p>
+</blockquote>
+<p>회사에서 발표한 <a href="https://www.slideshare.net/shoo7830/vuejs-firebase-75249704" target="_blank" rel="external">Vue.js와 Firebase를 활용기</a>를 <a href="https://vuejs-kr.github.io/meetup/" target="_blank" rel="external">Vuetiful Korea 1회 모임</a>에서 발표하였다.<br>이 날 많은 사람들 앞에서 발표한 것도 좋은 경험이였지만 Nuxt라는 범용 SSR 프레임워크를 알게 되었다.<br>언젠가 우리 서비스에 도입해야겠다고 생각했다. 내가 맡고 있는 하이웍스의 서비스 중 전자결재가 개편되었는데<br>이전 전자결재와 많은 부분이 달라 해당 내용을  소개하는 페이지가 필요했다. </p>
+<p>단순하게 html과 css, jQuery를 써서 작업해도 되지만 Nuxt를 이용해서 만들어 보기로 했다.<br>무엇보다도 이렇게라도 써보지 않으면 앞으로도 못쓸것 같았다.</p>
+<p><a href="https://www.hiworks.com/hiworks_beta/" target="_blank" rel="external">하이웍스 전자 결재 개편 소개</a></p>
+<p>결론을 먼저 말하자면 일단 만들고 모르는 건 찾아보자라고 해서 그랬는지 심한 삽질의 연속이였다.</p>
+<h2 id="페이지-구조-구상"><a href="#페이지-구조-구상" class="headerlink" title="페이지 구조 구상"></a>페이지 구조 구상</h2><ul>
+<li>index<ul>
+<li>반복되는 부분을 v-for를 써서 처리</li>
+</ul>
+</li>
+<li>sub page<ul>
+<li>layout을 만들어서 모든 subpage는 동일한 레이아웃 사용</li>
+</ul>
+</li>
+</ul>
+<h2 id="필요한-개발-도구-설치"><a href="#필요한-개발-도구-설치" class="headerlink" title="필요한 개발 도구 설치"></a>필요한 개발 도구 설치</h2><ol>
+<li><p>Yarn</p>
+</li>
+<li><p>Nuxt</p>
+</li>
+</ol>
+<h2 id="개발하면서-얻은-팁"><a href="#개발하면서-얻은-팁" class="headerlink" title="개발하면서 얻은 팁"></a>개발하면서 얻은 팁</h2><h2 id="시행착오"><a href="#시행착오" class="headerlink" title="시행착오"></a>시행착오</h2><ul>
+<li>CodIgniter는 my-procect같은 명명을 지원하지 않는다. 백엔드 개발자가 controller에서 해당 명명이 가능하도록 설정해주었다. 이 부분은 미리 백엔드 개발자와 논의했으면 불필요했을 부분이였다.</li>
+<li>정적인 파일로 생성해서 올리면 될 줄 알았는데 그게 아니였다. 요구 분석이 부족했다.</li>
+<li>다 만들고 나서 중첩된 라우터에 대한 부분을 확인하게 되었다. 이걸 진작 알았으면 삽질은 덜 했을텐데.</li>
+<li>webpack의 동작원리를 모르니 이것 역시 삽질이 </li>
+</ul>
+<h2 id="결론"><a href="#결론" class="headerlink" title="결론"></a>결론</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;올해 초 부터 Vue.js에 관심이 생겨 개인적으로 학습하고 있었다.&lt;br&gt;&lt;a href=&quot;http://webholic.net/2017%EB%85%84-1%EC%82%AC%EB%B6%84%EA%B8%B0-%ED%9A%8C%EA%B3%A0/&quot; ta
+    
+    </summary>
+    
+      <category term="front-end" scheme="http://coding-with.me/categories/front-end/"/>
+    
+      <category term="framework" scheme="http://coding-with.me/categories/front-end/framework/"/>
+    
+      <category term="nuxtjs" scheme="http://coding-with.me/categories/front-end/framework/nuxtjs/"/>
+    
+    
+      <category term="study" scheme="http://coding-with.me/tags/study/"/>
+    
+      <category term="vuejs" scheme="http://coding-with.me/tags/vuejs/"/>
+    
+      <category term="nuxtjs" scheme="http://coding-with.me/tags/nuxtjs/"/>
+    
+  </entry>
   
   <entry>
     <title>2017 널리, 세미나 널리 사람을 이롭게 하다 요약</title>
@@ -227,9 +327,9 @@
       <category term="vuejs" scheme="http://coding-with.me/categories/front-end/framework/vuejs/"/>
     
     
-      <category term="vuejs" scheme="http://coding-with.me/tags/vuejs/"/>
-    
       <category term="study" scheme="http://coding-with.me/tags/study/"/>
+    
+      <category term="vuejs" scheme="http://coding-with.me/tags/vuejs/"/>
     
   </entry>
   
@@ -272,11 +372,11 @@
       <category term="react" scheme="http://coding-with.me/categories/front-end/react/"/>
     
     
-      <category term="study" scheme="http://coding-with.me/tags/study/"/>
-    
       <category term="javascript" scheme="http://coding-with.me/tags/javascript/"/>
     
       <category term="react" scheme="http://coding-with.me/tags/react/"/>
+    
+      <category term="study" scheme="http://coding-with.me/tags/study/"/>
     
   </entry>
   
