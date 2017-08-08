@@ -10,7 +10,7 @@
 </blockquote>
 <p>라고 가볍게 생각하고 시작했는데 결론은 도입은 했으나 삽질의 연속이였다.</p>
 <p><a href="https://www.hiworks.com/hiworks_beta/" target="_blank" rel="external">하이웍스 전자 결재 개편 소개 바로 가기</a></p>
-<h2 id="본격-도입기-삽질기"><a href="#본격-도입기-삽질기" class="headerlink" title="본격 도입기 ( 삽질기)"></a>본격 도입기 ( <del>삽질기</del>)</h2><h2 id="1-페이지-구성-설계"><a href="#1-페이지-구성-설계" class="headerlink" title="1. 페이지 구성/설계"></a>1. 페이지 구성/설계</h2><ul>
+<h2 id="본격-도입기-삽질기"><a href="#본격-도입기-삽질기" class="headerlink" title="본격 도입기 ( 삽질기)"></a>본격 도입기 ( <del>삽질기</del>)</h2><h3 id="1-페이지-구성-설계"><a href="#1-페이지-구성-설계" class="headerlink" title="1. 페이지 구성/설계"></a>1. 페이지 구성/설계</h3><ul>
 <li>메인 페이지<ul>
 <li>반복되는 부분을 v-for를 써서 처리</li>
 </ul>
@@ -22,9 +22,7 @@
 </ul>
 </li>
 </ul>
-<ol>
-<li><p>필요한 개발 도구 설치</p>
-<ul>
+<h3 id="2-필요한-개발-도구-설치"><a href="#2-필요한-개발-도구-설치" class="headerlink" title="2.  필요한 개발 도구 설치"></a>2.  필요한 개발 도구 설치</h3><ul>
 <li><p>Yarn</p>
 <ul>
 <li>Yarn은 작업을 병렬로 처리하여 속도가 빠르다.</li>
@@ -48,7 +46,8 @@
 </li>
 </ul>
 </li>
-<li>작업 과정<ul>
+</ul>
+<h3 id="3-작업-과정"><a href="#3-작업-과정" class="headerlink" title="3. 작업 과정"></a>3. 작업 과정</h3><ul>
 <li>기본 가이드에서는 pages를 생성하고 그 안에서 *.Vue파일을 생성하게 되어 있는데 assets과 components, layouts의 폴더가 생기니 너무 산만해서 src라는 폴더를 만들고 <code>nuxt.config.js</code>에서 srcDir 설정을 바꿨다. </li>
 <li>router는 base에서 변경할 수 있다. </li>
 <li>generate 폴더 설정</li>
@@ -90,13 +89,9 @@
 </ul>
 </li>
 <li>최종 nuxt.config.js는 아래와 같다.<script src="//gist.github.com/e198db1d1407fbdab7625c4914591aa2.js"></script>
-<h2 id="장점"><a href="#장점" class="headerlink" title="장점"></a>장점</h2></li>
-</ul>
 </li>
 </ul>
-</li>
-</ol>
-<ul>
+<h2 id="장점"><a href="#장점" class="headerlink" title="장점"></a>장점</h2><ul>
 <li>기본 레이아웃 사용, 좌 메뉴 컴포넌트 사용, v-for의 디렉티브 사용으로 코드의 양이 줄었다.</li>
 <li>각 페이지 별로 메타 태그를 설정할 수 있어서 SEO를 향상시킬 수 있었다.</li>
 <li>기본적으로 페이지 전환, 활성화 된 페이지 표시, 로딩 페이지 기능을 제공하고 있어서 작업 공수를 줄여준다.</li>
