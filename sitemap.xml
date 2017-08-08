@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coding-with.me/2017/08/09/nuxt-project/</loc>
+    
+    <lastmod>2017-08-08T15:48:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coding-with.me/2017/08/02/sass-less-calc/</loc>
     
     <lastmod>2017-08-02T04:06:10.000Z</lastmod>
