@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coding-with.me/"/>
-  <updated>2017-08-08T15:55:05.000Z</updated>
+  <updated>2017-08-09T00:03:02.000Z</updated>
   <id>http://coding-with.me/</id>
   
   <author>
@@ -19,16 +19,16 @@
     <title>Nuxt.js를 활용하여 개편 소개 페이지 만들기</title>
     <link href="http://coding-with.me/2017/08/09/nuxt-project/"/>
     <id>http://coding-with.me/2017/08/09/nuxt-project/</id>
-    <published>2017-08-08T15:55:05.000Z</published>
-    <updated>2017-08-08T15:55:05.000Z</updated>
+    <published>2017-08-09T00:03:02.000Z</published>
+    <updated>2017-08-09T00:03:02.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="도입배경"><a href="#도입배경" class="headerlink" title="도입배경"></a>도입배경</h2><p>올해 초 부터 Vue.js에 관심이 생겨 개인적으로 학습하고 있었다.<br><a href="http://webholic.net/2017%EB%85%84-1%EC%82%AC%EB%B6%84%EA%B8%B0-%ED%9A%8C%EA%B3%A0/" target="_blank" rel="external">2017 1사분기를 회고</a>하는 글에 이런 내용을 적었었다.</p>
 <blockquote>
-<p>“회사 개발자 세미나에서도 해당 주제로 발표할 예정이며,  가능하다면 외부 밋업에서도 발표하고 싶다.”</p>
+<p>“회사 개발자 세미나에서도 해당 주제로 발표할 예정이며,<br>가능하다면 외부 밋업에서도 발표하고 싶다.”</p>
 </blockquote>
 <p>실제로 지난 4월 19일에 외부 밋업에서 발표하게 되었다.</p>
 <p>주제는 회사에서 발표한 <a href="https://www.slideshare.net/shoo7830/vuejs-firebase-75249704" target="_blank" rel="external">Vue.js와 Firebase를 활용기</a>를 <a href="https://vuejs-kr.github.io/meetup/" target="_blank" rel="external">Vuetiful Korea 1회 모임</a>에서 발표하였다.<br>이 날 많은 사람들 앞에서 발표한 것도 좋은 경험이였지만 <a href="https://ko.nuxtjs.org" target="_blank" rel="external">Nuxt.js</a>라는 Vue.js 기반 범용 SSR 프레임워크를 알게 되었다.<br>용량도 가볍고 필요한 개발 환경은 미리 다 포함하고 있어서(<code>Vue, Vuex, Vue-router, Vue-meta, webpack</code>) 개발 생산성이 높아질 것으로 보여졌다. </p>
-<p>어떤 서비스에 도입해볼까 고민하다가 하이웍스 전자결재 개편 소개 페이지에 도입해보았다.<br>하이웍스 전자결재 개편 소개 페이지는 IE9 이상 지원해도 될 것이라 생각하였고 20여 페이지 정도의 작은 규모이니<br>무리가 없을 것이라고 생각했다. </p>
+<p>어떤 서비스에 도입해볼까 고민하다가 하이웍스 전자결재 개편 소개 페이지에 도입해보았다.<br>하이웍스 전자결재 개편 소개 페이지는 IE9 이상 지원해도 될 것이라 생각하였고 20여 페이지 정도의 작은 규모이니 무리가 없을 것이라고 생각했다. </p>
 <blockquote>
 <p>“일단 만들면서 모르면 찾아보자”</p>
 </blockquote>
@@ -129,12 +129,12 @@
 <li>Yarn으로 로컬서버를 실행시키면 다만 파워쉘로 실행시키면 자주 얼음하고 윈도우에서도 설치가 불편하다. 실제로 제대로 설치가 안되서 2-3번 재 설치를 했다.</li>
 <li>해당 기술에 대한 충분한 이해가 없어서 삽질을 너무 많이했다.</li>
 <li>우측 콘텐츠 내용을 하드코딩을 해서 넣었는데 사실 컴포넌트로 만들었으면 더 좋지 않았을까?</li>
-<li>webpack으로 번들링을 하게 되면 모든 파일의 무결성을 위해 해시태그가 붙게 된다. 옵션에서 변경이 가능하였는데 webpack </li>
+<li>webpack으로 번들링을 하게 되면 모든 파일의 무결성을 위해 해시태그가 랜덤하게 붙게 된다. 옵션에서 변경이 가능하였는데 webpack에 대해 잘 몰라서 그냥 사용했다.</li>
 </ul>
 <h2 id="결론"><a href="#결론" class="headerlink" title="결론"></a>결론</h2><ul>
 <li>Nuxt.js는 빠르고 가벼운 개발을 하기에 적합한 도구이다.</li>
 <li>너무 많은 삽질은 생산성을 낮출 수 있으니 기본적인 사용방법은 알아두자.</li>
-<li>모든 문제의 정답은 가이드에 있다.</li>
+<li>모든 문제의 정답은 가이드에 있다. Nuxt.js 가이드 문서에 없는 내용은 각 개발 도구의 가이드 문서를 찾아보면 있다.</li>
 <li>CodeIgniter + Vue.js boilerplate를 하반기에 만들고 싶다. </li>
 <li>CSS를 Sass로 사용해서 CSS 개발 생산성도 높여야겠다.</li>
 <li>다음엔 어떤 서비스에 도입해볼까?</li>
