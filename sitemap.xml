@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://coding-with.me/2017/08/09/nuxt-project/</loc>
-    
-    <lastmod>2017-08-09T04:30:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coding-with.me/2017/08/02/sass-less-calc/</loc>
-    
-    <lastmod>2017-08-02T04:06:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coding-with.me/about/index.html</loc>
-    
-    <lastmod>2017-07-14T06:44:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coding-with.me/2017/06/30/nuli-seminar/</loc>
-    
-    <lastmod>2017-06-30T00:14:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coding-with.me/2017/05/01/vuejs-study-plan/</loc>
-    
-    <lastmod>2017-06-27T03:36:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coding-with.me/2016/08/02/react-study-plan/</loc>
-    
-    <lastmod>2017-05-01T14:14:25.000Z</lastmod>
-    
-  </url>
-  
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/using-the-ghost-editor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/a-full-style-test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/github-link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/tags/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/tags/tests/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/tags/source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/author/aria/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/gh-pages/resume/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
