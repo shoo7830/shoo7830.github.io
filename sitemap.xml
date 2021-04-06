@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/using-the-ghost-editor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/a-full-style-test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/github-link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/tags/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/tags/tests/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/tags/source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/author/aria/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://gatsby-casper.netlify.com/gh-pages/resume/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/using-the-ghost-editor/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/a-full-style-test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/github-link/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/tags/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/tags/tests/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/tags/source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/author/aria/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-casper.netlify.com/resume/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
