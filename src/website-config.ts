@@ -45,7 +45,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/writing.png',
   logo: 'img/ghost-logo.png',
   lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
+  siteUrl: 'https://aria-frontend.dev',
   facebook: 'https://www.facebook.com/shoo7830',
   twitter: 'https://twitter.com/shoo7830',
   github: 'https://github.com/shoo7830',
