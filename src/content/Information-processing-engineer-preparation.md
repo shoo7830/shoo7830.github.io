@@ -1,14 +1,10 @@
 ---
+layout: post
 title: 나는 정보처리기사를 이렇게 준비하였다.
-tags:
-  - 공부방법
-  - 시험
-  - 정보처리기사
-url: 432.html
-id: 432
-categories:
-  - 일상 끄적끄적
+author: [Aria]
 date: 2016-08-11 00:36:47
+tags: []
+draft: true
 ---
 
 나도 이제 정보처리기사.

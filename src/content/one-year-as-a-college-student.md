@@ -1,11 +1,10 @@
 ---
+layout: post
 title: 대학생으로 보낸 1년
-url: 443.html
-id: 443
-categories:
-  - 일상 끄적끄적
+author: [Aria]
 date: 2016-12-11 00:02:32
-tags:
+tags: []
+draft: true
 ---
 
 올 한해를 돌아보면 정말 다사다난했던 한 해였다. 많은 일이 있었지만, 그중 대학생으로 보낸 1년을 돌아보고자 한다.

@@ -1,12 +1,13 @@
 ---
-title: '[CSS Quiz]  CSS를 이용해 아군을 구출하라!'
-url: 322.html
-id: 322
-categories:
-  - Front-end Develop
-  - 즐거운 코딩생활
+layout: post
+title: CSS Quiz-CSS를 이용해 아군을 구출하라!
+author: [Aria]
 date: 2015-06-30 11:45:37
-tags:
+tags: 
+  - frontend
+  - css
+  - markup
+draft: true
 ---
 
 출처 : 정찬명님 블로그 (http://naradesign.net/wp/2014/08/01/2057/)

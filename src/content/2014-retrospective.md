@@ -1,14 +1,10 @@
 ---
+layout: post
 title: 2014년을 돌아보기
-tags:
-  - '2014'
-  - 계획
-  - 반성
-url: 248.html
-id: 248
-categories:
-  - 일상 끄적끄적
+author: [Aria]
 date: 2014-09-01 13:02:11
+tags: []
+draft: true
 ---
 
 연초에 회사에 복귀하기 전에 2014년 계획을 세웠었다.

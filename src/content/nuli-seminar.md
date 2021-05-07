@@ -1,12 +1,14 @@
 ---
+layout: post
 title: 2017 널리, 세미나 널리 사람을 이롭게 하다 요약
-tags: 
-- 널리
-- 웹접근성
-- 세미나
-categories: 
-- front-end
-- seminar
+author: [Aria]
+date: 2017-06-03 11:09:07
+tags:
+  - frontend
+  - seminar
+  - nuli
+  - 웹접근성
+draft: true
 ---
 
 지난 6월 28일 그린팩토리 2층 커넥트 홀에서 2017 널리 사람을 이롭게 하다에 다녀왔다.

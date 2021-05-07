@@ -1,16 +1,15 @@
 ---
+layout: post
 title: Pure CSS Drawing with codepen.io
+author: [Aria]
+date: 2014-10-24 11:09:07
 tags:
+  - frontend
   - codepen
   - css
   - drawing
   - study
-url: 331.html
-id: 331
-categories:
-  - Front-end Develop
-  - 즐거운 코딩생활
-date: 2014-10-24 11:09:07
+draft: true
 ---
 
 css관련 글을 구글링 하다가 ["Simpsons in CSS"](http://www.chrispattle.com/blog/simpsons-in-css/) 라는 글을 보게 되었습니다.  

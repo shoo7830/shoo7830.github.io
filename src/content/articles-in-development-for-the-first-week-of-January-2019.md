@@ -1,17 +1,16 @@
 ---
+layout: post
 title: 2019 1월 첫 주 개발 아티클
-tags:
+author: [Aria]
+date: 2019-01-09 00:16:35
+tags: 
   - articles
   - css
   - development
   - html
   - javascript
-  - vuejs
-url: 504.html
-id: 504
-categories:
-  - Front-end Develop
-date: 2019-01-09 00:16:35
+  - vue
+draft: true
 ---
 
 개발 일반

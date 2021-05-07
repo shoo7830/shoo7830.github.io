@@ -1,11 +1,10 @@
 ---
+layout: post
 title: 2015년 1월 돌아보기
-url: 309.html
-id: 309
-categories:
-  - 일상 끄적끄적
+author: [Aria]
 date: 2015-02-01 23:57:15
-tags:
+tags: []
+draft: true
 ---
 
 2014년 11월 부터 한 커뮤니티에서 알게 된 bullet diary라는 방식으로 다이어리를 적기 시작했습니다.  

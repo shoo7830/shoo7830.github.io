@@ -1,15 +1,10 @@
 ---
+layout: post
 title: 2018년 회고
-tags:
-  - '2018'
-  - '2019'
-  - 계획
-  - 회고
-url: 500.html
-id: 500
-categories:
-  - 일상 끄적끄적
+author: [Aria]
 date: 2018-12-28 13:08:43
+tags: []
+draft: true
 ---
 
 벌써 2018년이 4일 밖에 안남았다.

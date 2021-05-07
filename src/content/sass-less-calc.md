@@ -1,13 +1,15 @@
 ---
+layout: post
 title: Sass/Less에서 calc() 사용하기
-tags: 
-- sass
-- scss
-- less
-- calc
-categories: 
-- front-end
-- css
+author: [Aria]
+date: 2017-10-13 23:36:09
+tags:
+  - frontend
+  - sass
+  - scss
+  - less
+  - calc
+draft: true
 ---
 
 css3 width속성 중 `calc()`이라는유용한 단위 값이 있다.

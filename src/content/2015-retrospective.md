@@ -1,14 +1,10 @@
 ---
+layout: post
 title: 2015년 돌아보기.
-tags:
-  - 2015년
-  - 마무리
-  - 송구영신
-url: 344.html
-id: 344
-categories:
-  - 일상 끄적끄적
+author: [Aria]
 date: 2015-12-31 10:22:30
+tags: []
+draft: true
 ---
 
 다사다난 했던 2015년이 이제 얼마 남지 않았다.

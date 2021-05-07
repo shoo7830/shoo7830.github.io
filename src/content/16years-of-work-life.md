@@ -1,13 +1,10 @@
 ---
+layout: post
 title: 만 16년 사회생활을 돌아보며.
-tags:
-  - 사회생활
-  - 회고
-url: 484.html
-id: 484
-categories:
-  - 일상 끄적끄적
+author: [Aria]
 date: 2017-12-17 22:20:08
+tags: []
+draft: true
 ---
 
 지난 12월 4일 내가 사회생활을 한 지 벌써 만 16년이 되었다는 것을 알게 되었다.

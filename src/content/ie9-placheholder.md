@@ -1,17 +1,15 @@
 ---
+layout: post
 title: IE9 이하에서 placeholder 적용하기
+author: [Aria]
+date: 2014-05-29 20:02:50
 tags:
+  - frontend
+  - javascript
   - ie
-  - js
   - markup
   - placeholder
-  - resource
-url: 125.html
-id: 125
-categories:
-  - Front-end Develop
-  - 즐거운 코딩생활
-date: 2014-05-29 20:02:50
+draft: true
 ---
 
 각종 입력 폼에 예시 문구를 나타내기 위해서 예전에는 이미지를 잘라서 position을 잡고 포커싱이 되면 이미지가 사라지게 하는 방법을 사용했다.
