@@ -11,6 +11,7 @@ tags:
   - drawing
   - study
 draft: true
+excerpt:
 ---
 
 css관련 글을 구글링 하다가 ["Simpsons in CSS"](http://www.chrispattle.com/blog/simpsons-in-css/) 라는 글을 보게 되었습니다.  

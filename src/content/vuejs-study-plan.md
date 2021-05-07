@@ -9,6 +9,7 @@ tags:
   - vue
   - study
 draft: true
+excerpt:
 ---
 
 작년에 [React Study Plan](http://coding-with.me/2016/08/02/react-study-plan/)이라는 글을 쓴 적이 있다.

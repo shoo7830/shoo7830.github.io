@@ -6,6 +6,7 @@ author: [Aria]
 date: 2016-08-11 00:36:47
 tags: []
 draft: true
+excerpt:
 ---
 
 나도 이제 정보처리기사.

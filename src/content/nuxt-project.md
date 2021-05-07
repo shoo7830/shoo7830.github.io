@@ -10,6 +10,7 @@ tags:
   - nuxt
   - study
 draft: true
+excerpt:
 ---
 
 ## 도입배경

@@ -12,6 +12,7 @@ tags:
   - javascript
   - vue
 draft: true
+exerpt:
 ---
 
 개발 일반

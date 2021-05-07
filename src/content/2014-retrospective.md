@@ -6,6 +6,7 @@ author: [Aria]
 date: 2014-09-01 13:02:11
 tags: []
 draft: true
+excerpt:
 ---
 
 연초에 회사에 복귀하기 전에 2014년 계획을 세웠었다.

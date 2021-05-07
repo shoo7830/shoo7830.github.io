@@ -6,6 +6,7 @@ author: [Aria]
 date: 2017-12-17 22:20:08
 tags: []
 draft: true
+excerpt:
 ---
 
 지난 12월 4일 내가 사회생활을 한 지 벌써 만 16년이 되었다는 것을 알게 되었다.
