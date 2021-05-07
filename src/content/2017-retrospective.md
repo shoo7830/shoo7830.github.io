@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2017년 회고, 그리고 2018년 계획
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-12-31 19:33:52
 tags: []

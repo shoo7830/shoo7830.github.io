@@ -1,6 +1,7 @@
 ---
 layout: post
 title: React Study Plan
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2016-08-02 18:01:34
 tags:

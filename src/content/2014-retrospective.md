@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2014년을 돌아보기
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2014-09-01 13:02:11
 tags: []

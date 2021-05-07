@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 대학생으로 보낸 1년
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2016-12-11 00:02:32
 tags: []

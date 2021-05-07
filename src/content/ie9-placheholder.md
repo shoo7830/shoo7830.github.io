@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IE9 이하에서 placeholder 적용하기
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2014-05-29 20:02:50
 tags:

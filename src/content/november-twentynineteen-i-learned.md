@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 11월에 배운 것 - Laravel + Vue 환경설정
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2019-12-09 13:28:23
 tags:

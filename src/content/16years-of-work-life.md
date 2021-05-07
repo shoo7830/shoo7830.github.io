@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 만 16년 사회생활을 돌아보며.
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-12-17 22:20:08
 tags: []

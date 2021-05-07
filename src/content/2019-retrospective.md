@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2019년 회고.
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2019-12-30 08:38:23
 tags: []

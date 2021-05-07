@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sass/Less에서 calc() 사용하기
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-10-13 23:36:09
 tags:

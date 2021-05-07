@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2017년 1사분기 회고.
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-03-31 13:25:49
 tags: []

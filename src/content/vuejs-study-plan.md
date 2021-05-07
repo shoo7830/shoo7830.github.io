@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Vue.js Study Plan
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-05-01 23:36:09
 tags:

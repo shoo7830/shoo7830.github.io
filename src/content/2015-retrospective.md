@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2015년 돌아보기.
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2015-12-31 10:22:30
 tags: []

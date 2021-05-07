@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2017 널리, 세미나 널리 사람을 이롭게 하다 요약
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-06-03 11:09:07
 tags:

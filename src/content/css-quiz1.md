@@ -1,6 +1,7 @@
 ---
 layout: post
 title: CSS Quiz-CSS를 이용해 아군을 구출하라!
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2015-06-30 11:45:37
 tags: 

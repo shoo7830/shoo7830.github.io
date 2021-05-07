@@ -1,6 +1,7 @@
 ---
 layout: post
 title: JavaScript 라이브러리 충돌 방지
+image: img/testimg-cover.jpg
 author: [Aria]
 date: 2015-06-30 07:09:48
 tags:
