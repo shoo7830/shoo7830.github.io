@@ -9,8 +9,8 @@ tags:
   - vue
   - nuxt
   - study
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 ## 도입배경

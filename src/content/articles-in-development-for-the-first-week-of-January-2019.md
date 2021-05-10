@@ -11,8 +11,8 @@ tags:
   - html
   - javascript
   - vue
+excerpt: Where to find this project on GitHub.
 draft: true
-exerpt:
 ---
 
 개발 일반

@@ -10,8 +10,8 @@ tags:
   - scss
   - less
   - calc
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 css3 width속성 중 `calc()`이라는유용한 단위 값이 있다.

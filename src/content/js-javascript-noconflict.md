@@ -8,8 +8,8 @@ tags:
   - frontend
   - javascript
   - jquery
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 짧은 실력이지만 현재 운영하고 있는 그룹웨어 서비스 로그인 페이지에 마우스를 오버하면 툴팁이 뜨도록 JQuery로 작업을 했습니다.

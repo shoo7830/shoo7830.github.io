@@ -8,8 +8,8 @@ tags:
   - frontend
   - css
   - markup
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 출처 : 정찬명님 블로그 (http://naradesign.net/wp/2014/08/01/2057/)

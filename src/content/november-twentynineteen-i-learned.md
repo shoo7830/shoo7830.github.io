@@ -8,8 +8,8 @@ tags:
   - frontend
   - laravel
   - vue
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 Vue로 1년 전에도 작업은 하였지만 그때는 Nuxt.js였고, 이번에는 Laravel과 Vue가 결합된 형태의 개발 환경에서 개발하였다.

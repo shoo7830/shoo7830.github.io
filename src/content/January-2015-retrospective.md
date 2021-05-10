@@ -5,8 +5,8 @@ image: img/testimg-cover.jpg
 author: [Aria]
 date: 2015-02-01 23:57:15
 tags: []
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 2014년 11월 부터 한 커뮤니티에서 알게 된 bullet diary라는 방식으로 다이어리를 적기 시작했습니다.  

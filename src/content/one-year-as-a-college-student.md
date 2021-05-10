@@ -5,8 +5,8 @@ image: img/testimg-cover.jpg
 author: [Aria]
 date: 2016-12-11 00:02:32
 tags: []
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 올 한해를 돌아보면 정말 다사다난했던 한 해였다. 많은 일이 있었지만, 그중 대학생으로 보낸 1년을 돌아보고자 한다.

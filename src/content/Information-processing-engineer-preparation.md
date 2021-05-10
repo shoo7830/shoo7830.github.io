@@ -5,8 +5,8 @@ image: img/testimg-cover.jpg
 author: [Aria]
 date: 2016-08-11 00:36:47
 tags: []
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 나도 이제 정보처리기사.

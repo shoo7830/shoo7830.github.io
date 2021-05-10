@@ -9,8 +9,8 @@ tags:
   - javascript
   - react
   - study
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 하반기에 나 자신의 개발역량 강화를 위해 React를 공부하기로 결심하였다.

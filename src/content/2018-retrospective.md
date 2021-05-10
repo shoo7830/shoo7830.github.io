@@ -5,8 +5,8 @@ image: img/testimg-cover.jpg
 author: [Aria]
 date: 2018-12-28 13:08:43
 tags: []
+excerpt: Where to find this project on GitHub.
 draft: true
-excerpt:
 ---
 
 벌써 2018년이 4일 밖에 안남았다.
