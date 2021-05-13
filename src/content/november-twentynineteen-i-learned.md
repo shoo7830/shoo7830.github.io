@@ -1,15 +1,13 @@
 ---
 layout: post
 title: 11월에 배운 것 - Laravel + Vue 환경설정
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2019-12-09 13:28:23
 tags:
   - frontend
   - laravel
   - vue
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 Vue로 1년 전에도 작업은 하였지만 그때는 Nuxt.js였고, 이번에는 Laravel과 Vue가 결합된 형태의 개발 환경에서 개발하였다.

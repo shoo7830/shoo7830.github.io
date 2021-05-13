@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 2015년 돌아보기.
-image: img/testimg-cover.jpg
 author: [Aria]
-date: 2015-12-31 10:22:30
 tags: []
 excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 다사다난 했던 2015년이 이제 얼마 남지 않았다.

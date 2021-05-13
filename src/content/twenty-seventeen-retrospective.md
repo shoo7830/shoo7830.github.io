@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 2017년 회고, 그리고 2018년 계획
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-12-31 19:33:52
 tags: []
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 다사다난했던 2017년이 이제 얼마 남지 않았다. 한 해 동안 업무, 학업, 개인적으로 어떻게 보냈는지 돌아보자. 그리고 2018년은 어떻게 보낼지 계획을 세워보고자 한다.

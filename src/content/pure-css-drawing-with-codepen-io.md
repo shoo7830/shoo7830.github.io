@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Pure CSS Drawing with codepen.io
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2014-10-24 11:09:07
 tags:
@@ -10,8 +9,7 @@ tags:
   - css
   - drawing
   - study
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 css관련 글을 구글링 하다가 ["Simpsons in CSS"](http://www.chrispattle.com/blog/simpsons-in-css/) 라는 글을 보게 되었습니다.  

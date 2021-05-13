@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 2017 널리, 세미나 널리 사람을 이롭게 하다 요약
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-06-03 11:09:07
 tags:
@@ -9,8 +8,7 @@ tags:
   - seminar
   - nuli
   - 웹접근성
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 지난 6월 28일 그린팩토리 2층 커넥트 홀에서 2017 널리 사람을 이롭게 하다에 다녀왔다.

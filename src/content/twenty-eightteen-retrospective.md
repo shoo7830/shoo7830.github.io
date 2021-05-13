@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 2018년 회고
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2018-12-28 13:08:43
 tags: []
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 벌써 2018년이 4일 밖에 안남았다.

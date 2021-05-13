@@ -1,7 +1,6 @@
 ---
 layout: post
 title: React Study Plan
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2016-08-02 18:01:34
 tags:
@@ -9,8 +8,7 @@ tags:
   - javascript
   - react
   - study
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 하반기에 나 자신의 개발역량 강화를 위해 React를 공부하기로 결심하였다.

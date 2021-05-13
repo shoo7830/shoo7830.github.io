@@ -1,15 +1,13 @@
 ---
 layout: post
-title: Vue.js Study Plan
-image: img/testimg-cover.jpg
+title: 'Vue.js Study Plan'
 author: [Aria]
-date: 2017-05-01 23:36:09
+date: '2017-05-01T23:36:09'
 tags:
   - frontend
   - vue
   - study
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 작년에 [React Study Plan](http://coding-with.me/2016/08/02/react-study-plan/)이라는 글을 쓴 적이 있다.

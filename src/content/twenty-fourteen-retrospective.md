@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 2014년을 돌아보기
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2014-09-01 13:02:11
 tags: []
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 연초에 회사에 복귀하기 전에 2014년 계획을 세웠었다.

@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 나는 정보처리기사를 이렇게 준비하였다.
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2016-08-11 00:36:47
 tags: []
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 나도 이제 정보처리기사.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Sass/Less에서 calc() 사용하기
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-10-13 23:36:09
 tags:
@@ -10,8 +9,7 @@ tags:
   - scss
   - less
   - calc
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 css3 width속성 중 `calc()`이라는유용한 단위 값이 있다.

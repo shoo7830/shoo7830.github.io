@@ -1,15 +1,13 @@
 ---
 layout: post
 title: CSS Quiz-CSS를 이용해 아군을 구출하라!
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2015-06-30 11:45:37
 tags: 
   - frontend
   - css
   - markup
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 출처 : 정찬명님 블로그 (http://naradesign.net/wp/2014/08/01/2057/)

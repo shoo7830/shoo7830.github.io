@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 2019년 회고.
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2019-12-30 08:38:23
 tags: []
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 2019년은 그 어느 해보다 힘들었다.

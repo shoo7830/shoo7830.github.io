@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 2019 1월 첫 주 개발 아티클
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2019-01-09 00:16:35
 tags: 
@@ -12,7 +11,7 @@ tags:
   - javascript
   - vue
 excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 개발 일반

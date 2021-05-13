@@ -1,7 +1,6 @@
 ---
 layout: post
 title: IE9 이하에서 placeholder 적용하기
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2014-05-29 20:02:50
 tags:
@@ -10,8 +9,7 @@ tags:
   - ie
   - markup
   - placeholder
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 각종 입력 폼에 예시 문구를 나타내기 위해서 예전에는 이미지를 잘라서 position을 잡고 포커싱이 되면 이미지가 사라지게 하는 방법을 사용했다.

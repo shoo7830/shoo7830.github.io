@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Nuxt.js를 활용하여 개편 소개 페이지 만들기
-image: img/testimg-cover.jpg
 author: [Aria]
 date: 2017-10-23 11:09:07
 tags:
@@ -9,8 +8,7 @@ tags:
   - vue
   - nuxt
   - study
-excerpt: Where to find this project on GitHub.
-draft: true
+draft: false
 ---
 
 ## 도입배경
