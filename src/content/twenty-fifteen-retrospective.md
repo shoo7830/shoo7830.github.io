@@ -2,6 +2,7 @@
 layout: post
 title: 2015년 돌아보기.
 author: [Aria]
+date: 2015-12-31 10:22:30
 tags: []
 excerpt: Where to find this project on GitHub.
 draft: false
