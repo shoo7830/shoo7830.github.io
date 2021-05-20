@@ -1,14 +1,15 @@
 ---
 layout: post
 title: hexo, wordpress에서 gatsby로 블로그 병합, 이전하기
+image: img/img-gatsby.png
 author: [Aria]
-date: 2021-05-20 13:30:52
+date: 2021-05-20 11:21:52
 tags: 
   - gatsby
   - hexo
   - wordpres
   - github
-draft: true
+draft: false
 ---
 
 한 동안 방치해두었던 Hexo로 된 기술블로그와 신변잡기와 기술블로그가 섞인 wordpress 블로그를 병합하고,
