@@ -22,6 +22,7 @@
 <url> <loc>https://aria-frontend.dev/articles-in-development-for-the-first-week-of-January-2019/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/november-twentynineteen-i-learned/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/twenty-nineteen-retrospective/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://aria-frontend.dev/migrating-wordpres-and-hexo-to-gatsby-on-github-pages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/tags/frontend/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/tags/javascript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/tags/ie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -46,6 +47,10 @@
 <url> <loc>https://aria-frontend.dev/tags/development/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/tags/html/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/tags/laravel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://aria-frontend.dev/tags/gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://aria-frontend.dev/tags/hexo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://aria-frontend.dev/tags/wordpres/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://aria-frontend.dev/tags/github/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/author/aria/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/author/another-author/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://aria-frontend.dev/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
