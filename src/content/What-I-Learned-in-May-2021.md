@@ -2,7 +2,7 @@
 layout: post
 title: 2021년 5월에 배운 것
 author: [Aria]
-date: 2021-06-01 11:21:52
+date: 2021-06-01 17:30:52
 tags: 
   - til
 draft: false
@@ -14,7 +14,7 @@ draft: false
 
 * [고밀도 디스플레이 대응](https://blog.hanlee.io/2018/high-density-display-and-images/): 2019년부터 회사에서 맥을 쓰는 직원들이 늘어나기 시작했다. 그러다보니 레티나 디스플레이에서 이미지가 약간 뿌옇게 보인다고 알려주는 사람들이 늘었다. 레티나 디스플레이 같은 고밀도 디스플레이 대응은 꼭 필요하게 되었고 그에 대한 방법론을 찾다가 이 글을 찾게 되었다. 이 글을 통해 디스플레이에 따라 적합한 이미지를 보여주는 방법을 익혔고, EMS 작업할 때 유용하게 사용하였다. 
 
-* [Node.js와 npm 실행시 icu4c 오류](https://jolly-sally.tistory.com/16): Hombrew를 통해서 Node.js, npm을 설치해서 사용하고 있는데 어느날 갑자기 icu4c오류가 떴다. 해당 오류에 대한 해결 방법이 이 글에 정리가 되어있다. 
+* [Node.js와 npm 실행시 icu4c 오류](https://jolly-sally.tistory.com/16): Homebrew를 통해서 Node.js, npm을 설치해서 사용하고 있는데 어느날 갑자기 icu4c오류가 떴다. 해당 오류에 대한 해결 방법이 이 글에 정리가 되어있다. 
 
 * mac에서 npm install이 안될 때 해결방안
   * 원인 1. [node-gyp 관련](https://jojoldu.tistory.com/566)
