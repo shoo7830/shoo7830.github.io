@@ -29,3 +29,4 @@ draft: false
 
 * [interface와 type의 공통점과 차이점](https://yceffort.kr/2021/03/typescript-interface-vs-type): 캡틴판교님의 타입스크립트 강의를 듣다가 interface와 type이 비슷하면서 차이가 있는 것 같아 잘 정리된 글을 찾다가 발견하였다. 이 글에서는 type보다는 interface를 쓸 것을 추천하고 있다. 
 
+깃헙액션이 제대로 되었는지 확인차 수정
