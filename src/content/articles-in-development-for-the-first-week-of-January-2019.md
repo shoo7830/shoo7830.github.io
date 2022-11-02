@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2019 1월 첫 주 개발 아티클클
+title: 2019 1월 첫 주 개발 아티클
 author: [Aria]
 date: 2019-01-09 00:16:35
 tags: 
