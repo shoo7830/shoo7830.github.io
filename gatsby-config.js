@@ -40,13 +40,28 @@ module.exports = {
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
           'gatsby-remark-abbr',
+          
           {
-            resolve: 'gatsby-remark-images',
+            resolve: 'gatsby-remark-images', 
             options: {
               maxWidth: 2000,
               quality: 100,
+              
             },
           },
+
+          {
+            resolve: 'gatsby-remark-embedder',
+            options: {
+              customTransformers: [
+
+              ],
+
+              services: {
+
+              }
+            }
+          }
         ],
       },
     },
@@ -69,6 +84,7 @@ module.exports = {
         postCssPlugins: [require('postcss-color-function'), require('cssnano')()],
       },
     },
+    'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
